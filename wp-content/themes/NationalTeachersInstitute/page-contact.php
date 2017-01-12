@@ -18,7 +18,7 @@
                                         the_content();
                                     endwhile;
                                     else :
-                                        echo 'Add Content From Dashboard';
+                                        echo 'Add Content From Dashboard';S
                                     endif;
                             ?>
                         </div>
