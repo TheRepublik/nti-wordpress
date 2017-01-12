@@ -12,6 +12,16 @@
             	<div class="container">
 	                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 	                    <div class="content-body">
+                            <?php
+                                if (have_posts()) :
+                                    while (have_posts()) : the_post();
+                                        the_content();
+                                    endwhile;
+                                    else :
+                                        echo 'Add Content From Dashboard';
+                                    endif;
+                            ?>
+                        </div>
 							<?php echo do_shortcode( '[cscf-contact-form]' ) ?>
 				        </div>
 	                </div>
