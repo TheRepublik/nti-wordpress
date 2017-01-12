@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="section">
+<section class="section" style="padding-bottom: 0px;">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="container">
 			<?php echo do_shortcode('[smartslider3 slider=1]'); ?>
@@ -66,7 +66,7 @@
 		</div>
 	</div>
 </section>
-<section class="section">
+<section class="section" style="background-color: #E4F6CF;">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="container">
 			<h1 class="section-title">Our Programmes</h1>
