@@ -9,10 +9,23 @@
     <meta name="description" content="<?php bloginfo('description'); ?>" />
     <meta name="keywords" content="" />
 
+<<<<<<< HEAD
+=======
+    <link href="<?php bloginfo('template_url'); ?>/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?php bloginfo('template_url'); ?>/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+>>>>>>> master
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,200,300" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+<<<<<<< HEAD
+=======
+
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>    
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+>>>>>>> master
     <?php wp_head(); ?>
 </head>
 
