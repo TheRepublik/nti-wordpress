@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Courses Manager
- * Plugin URI:        http://victor.com/courses-manager
+ * Plugin URI:        http://victor.com.ng/courses-manager
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0
  * Author:            Victor Nwaokocha

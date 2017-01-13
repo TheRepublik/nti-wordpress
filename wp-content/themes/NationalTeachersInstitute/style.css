@@ -29,23 +29,33 @@ h5 {
   font-family: 'Montserrat';
 }
 
-p {
+p,a,li {
   font-family: 'Roboto';
+}
+
+p {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
 }
 
+.post-title a {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  color: #3B3D40 !important;
+  font-weight: bold;
+}
+
 a {
-  color: inherit;
+  color: #008001;
 }
 
 a:hover {
-  color: inherit;
+  color: #008001;
 }
 
 a:visited {
-  color: inherit;
+  color: #008001;
 }
 
 #header {
@@ -103,13 +113,16 @@ a:visited {
     margin-left: 10px; }
     #header-links li a {
       color: #3C3D41;
+      font-family: 'Montserrat';
       text-align: left; }
     #header-links li a:hover {
       color: #3C3D41;
       text-align: left;
+      font-family: 'Montserrat';
       text-decoration: underline; }
     #header-links li a:visited {
       color: #3C3D41;
+      font-family: 'Montserrat';
       text-align: left;
       text-decoration: underline; }
 
@@ -144,16 +157,19 @@ a:visited {
     text-transform: uppercase; }
     #header-nav .navbar-nav a {
       color: #fff;
+      font-family: 'Montserrat';
       text-align: left;
       font-size: 10px; }
     #header-nav .navbar-nav a:hover {
       background-color: transparent;
+      font-family: 'Montserrat';
       color: #fff;
       text-align: left;
       text-decoration: underline;
       font-size: 10px; }
     #header-nav .navbar-nav a:visited {
       color: #fff;
+      font-family: 'Montserrat';
       text-align: left;
       text-decoration: underline;
       font-size: 10px; }
@@ -341,12 +357,14 @@ a:visited {
     font-size: 12px;
     padding-top: 8px;
     color: #fff; }
+    .linky-widget .linky-box-link a, .linky-widget-red .linky-box-link a, .linky-widget-orange .linky-box-link a, .linky-widget-blue .linky-box-link a, .linky-widget-violet .linky-box-link a {
+      color: #fff !important; font-family: "Montserrat"; font-size: 10px; }    
     .linky-widget .linky-box-link a:hover, .linky-widget-red .linky-box-link a:hover, .linky-widget-orange .linky-box-link a:hover, .linky-widget-blue .linky-box-link a:hover, .linky-widget-violet .linky-box-link a:hover {
-      color: #fff !important; }
+      color: #fff !important; font-family: "Montserrat"; font-size: 10px; }
     .linky-widget .linky-box-link a:visited, .linky-widget-red .linky-box-link a:visited, .linky-widget-orange .linky-box-link a:visited, .linky-widget-blue .linky-box-link a:visited, .linky-widget-violet .linky-box-link a:visited {
-      color: #fff !important; }
+      color: #fff !important; font-family: "Montserrat"; font-size: 10px; }
     .linky-widget .linky-box-link a:active, .linky-widget-red .linky-box-link a:active, .linky-widget-orange .linky-box-link a:active, .linky-widget-blue .linky-box-link a:active, .linky-widget-violet .linky-box-link a:active {
-      color: #fff !important; }
+      color: #fff !important; font-family: "Montserrat"; font-size: 10px; }
 
 .social-btn, .social-widgets-links ul li .socia-fb, .social-widgets-links ul li .socia-tw, .social-widgets-links ul li .socia-gp {
   width: 50px;
@@ -413,10 +431,6 @@ a:visited {
   width: 100%;
   display: inline-block;
   height: auto;
-  padding: 25px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   background-color: #fff;
 }
 
@@ -576,11 +590,18 @@ a:visited {
 
 .form-control[type="text"],
 .form-control[type="email"],
-textarea {
+.sidebar-search-text,
+textarea.form-control {
+  border: 0px;
   background-color: #eee;
   border-radius: 2px;
   padding: 15px;
   color: #888888;
+}
+
+.sidebar-search-text {
+  height: 40px;
+  border: 1px solid transparent;
 }
 
 .find-seach-form {
@@ -591,7 +612,6 @@ textarea {
   width: 75%;
   height: 50px;
   float: left;
-  border: 1px solid #f5f5f5;
   box-shadow: inset 2px 0px 2px rgba(0,0,0,0.3);
   -webkit-box-shadow: inset 2px 0px 2px rgba(0,0,0,0.3);
   -moz-box-shadow: inset 2px 0px 2px rgba(0,0,0,0.3);
@@ -638,7 +658,24 @@ textarea {
  textarea::-webkit-input-placeholder {
     color:#888888;  }
 
+#search-2, 
+#recent-posts-2, 
+#recent-comments-2, 
+#archives-2, 
+#categories-2, 
+#meta-2 {
+  margin-bottom: 30px;
+}
 
+#search-2 ul,
+#recent-posts-2 ul,
+#recent-comments-2 ul,
+#archives-2 ul,
+#categories-2 ul,
+#meta-2 ul {
+  list-style: none;
+  padding: 0px;
+}
 
 @media (min-width: 320px) {
   .navbar-toggle {
