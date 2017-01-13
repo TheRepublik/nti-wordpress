@@ -16,6 +16,10 @@
                 </ul>
             </div>
             <div class="footer-column col-lg-3 col-md-3 col-sm-6 col-xs-12">
+<<<<<<< HEAD
+                <div class="footer-header">Recent News</div>
+                
+=======
                 <div class="footer-header">Follow Us</div>
                 <ul type="none" class="footer-links">
                     <li><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
@@ -23,6 +27,7 @@
                     <li><a href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
                     <li><a href="#"><i class="fa fa-rss"></i><span>RSS</span></a></li>
                 </ul>
+>>>>>>> master
             </div>
             <div class="footer-column col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="footer-header">SUBSCRIBE TO OUR NEWS</div>
@@ -34,5 +39,9 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
     <?php wp_footer(); ?>
 </body>

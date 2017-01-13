@@ -10,6 +10,12 @@
         <div class="content">
             <div class="container">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<<<<<<< HEAD
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                        <?php get_template_part("content", "page"); ?>
+                    </div>
+                    <?php get_sidebar(); ?>
+=======
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                         <div class="content-body">
                             <?php 
@@ -24,6 +30,7 @@
                             }
                         ?>
                     </div>
+>>>>>>> master
                 </div>
             </div>
         </div>

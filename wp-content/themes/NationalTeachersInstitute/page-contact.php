@@ -10,6 +10,15 @@
         <div class="content">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             	<div class="container">
+<<<<<<< HEAD
+	                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+	                    <div class="content-body">
+							<?php echo do_shortcode( '[cscf-contact-form]' ) ?>
+				        </div>
+	                </div>
+                    <?php get_sidebar(); ?> 
+               </div>
+=======
 	                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 	                    <div class="content-body">
                             <?php
@@ -33,6 +42,7 @@
 	                    ?>
 	                </div>
                 </div>
+>>>>>>> master
             </div>
         </div>
     </section>

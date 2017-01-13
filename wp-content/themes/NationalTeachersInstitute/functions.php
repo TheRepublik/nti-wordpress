@@ -5,11 +5,23 @@
         'primary' => __('Primary Menu', 'NTI')
     ));
 
+<<<<<<< HEAD
+    add_theme_support( 'post-formats', array(
+		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
+	) );
+
+    function side_widget () {
+		register_sidebar( array(
+		   'name' => __( 'Blog Sidearea', 'NTI' ),
+		   'id' => 'page-sidearea',
+		   'description' => __( 'The side area widget', 'NTI' ),
+=======
     function side_widget () {
 		register_sidebar( array(
 		   'name' => __( 'Blog Sidearea', 'nti' ),
 		   'id' => 'page-sidearea',
 		   'description' => __( 'The side area widget', 'nti' ),
+>>>>>>> master
 		   'before_widget' => '<div id="%1$s">',
 		   'after_widget' => '</div>',
 		   'before_title' => '<h4>',
@@ -75,9 +87,20 @@
 	add_shortcode('programmes_card','programmes_card_callback');
 
 	function login_card_callback($atts, $content, $tag) {
+<<<<<<< HEAD
+		$theme_url = get_template_directory_uri();
+
+		$output = '<div class="linky-widget-violet"><div class="linky-box-title">MY NTI PORTAL</div>';
+		$output .= '<div class="linky-box-content">';
+		$output .= '<br />';
+		$output .= '<div class="pull-left login-logo"><img src="'.$theme_url.'/assets/logo-btn.svg" height="60px" style="margin-top: -15px;margin-bottom: 5px;" /></div>';
+        $output .= '<div style="width: 150px;margin-left: 10px" class="pull-left">Login To The myNTI Portal</div>';
+		$output .= '</div>';
+=======
 		$output = '<div class="linky-widget-violet"><div class="linky-box-title">MY NTI PORTAL</div>';
 		$output .= '<div class="linky-box-content">';
 		$output .= '<br/>Login To The myNTI Portal</div>';
+>>>>>>> master
 		$output .= '<div class="linky-box-link">';
 		$output .= '<a href="#">';
 		$output .= '<div class="pull-left">Register Now</div>';
@@ -92,6 +115,36 @@
 
 	add_shortcode('login_card','login_card_callback');
 
+<<<<<<< HEAD
+	function countdown_long_card_callback($atts, $content, $tag) {
+		$output = '<div class="">';
+		$output .=  '</div>';
+
+		return $output;
+	}
+
+	add_shortcode('countdown_long_card','countdown_long_card_callback');
+
+	function countdown_sidebar_card_callback($atts, $content, $tag) {
+		$output = '<div class="">';
+		$output .=  '</div>';
+
+		return $output;		
+	}
+
+	add_shortcode('countdown_sidebar_card','countdown_sidebar_card_callback');
+
+	function socialicons_sidebar_card_callback($atts, $content, $tag) {
+		$output = '<div class="">';
+		$output .=  '</div>';
+
+		return $output;		
+	}
+
+	add_shortcode('socialicons_sidebar_card','socialicons_sidebar_card_callback');
+
+=======
+>>>>>>> master
 	Class My_Recent_Posts_Widget extends WP_Widget_Recent_Posts {
 
 		function widget($args, $instance) {
@@ -111,11 +164,15 @@
 				<ul class="bt-post-list">
 					<?php while( $r->have_posts() ) : $r->the_post(); ?>
 					<li>
+<<<<<<< HEAD
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+=======
 						<h6 class="bt-title bt-text-ellipsis"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 						<br />
 						<div class="bt-meta">
 							<span><?php the_time('F jS, Y'); ?></span>
 						</div>
+>>>>>>> master
 					</li>
 					<?php endwhile; ?>
 				</ul>
@@ -135,4 +192,35 @@
 	}
 
 	add_action('widgets_init', 'my_recent_widget_registration');
+<<<<<<< HEAD
+
+	function sidebar_social_icons () {
+		register_sidebar( array(
+		   'name' => __( 'Header Social Icons', 'NTI' ),
+		   'id' => 'header-social-icon',
+		   'description' => __( 'Location for social icons at the sidebar', 'NTI' ),
+		   'before_widget' => '<div>',
+		   'after_widget' => '</div>',
+		   'before_title' => '<span>',
+		   'after_title' => '</span>',
+	   ) );
+	}
+
+	add_action( 'widgets_init', 'sidebar_social_icons');
+
+	function nti_scripts() {
+		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/vendors/bootstrap/dist/css/bootstrap.min.css');
+		wp_enqueue_style( 'owl.carousel.css', get_template_directory_uri() . '/vendors/owl.carousel.css');
+		wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/vendors/font-awesome/css/font-awesome.min.css');
+		wp_enqueue_style( 'style', get_stylesheet_uri() );
+
+		wp_enqueue_script( 'jquery', get_template_directory_uri() . '/vendors/jquery/dist/jquery.min.js', true );
+		wp_enqueue_script( 'countdown', get_template_directory_uri() . '/vendors/jquery.countdown.min.js', array( 'jquery' ), '', true );
+		wp_enqueue_script( 'owl.carousel.js', get_template_directory_uri() . '/vendors/owl.carousel.min.js', array( 'jquery' ), '', true );
+		wp_enqueue_script( 'bootstrap.js', get_template_directory_uri() . '/vendors/bootstrap/dist/js/bootstrap.min.js', array( 'jquery' ), '', true );
+		wp_enqueue_script( 'nti-script', get_template_directory_uri() . '/vendors/functions.js', array( '$'), '', true );
+	}
+	add_action( 'wp_enqueue_scripts', 'nti_scripts' );
+=======
+>>>>>>> master
 ?>

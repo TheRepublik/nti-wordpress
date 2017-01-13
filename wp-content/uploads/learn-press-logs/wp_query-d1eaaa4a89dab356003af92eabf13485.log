@@ -1,0 +1,6396 @@
+-----01-10-2017 @ 09:38:54 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => home
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => home
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [queried_object] => WP_Post Object
+        (
+            [ID] => 17
+            [post_author] => 1
+            [post_date] => 2017-01-08 13:54:34
+            [post_date_gmt] => 2017-01-08 13:54:34
+            [post_content] => 
+            [post_title] => home
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => home
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2017-01-08 13:54:34
+            [post_modified_gmt] => 2017-01-08 13:54:34
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost:8888/nit/?page_id=17
+            [menu_order] => 0
+            [post_type] => page
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [queried_object_id] => 17
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => a50df2c311ca83d0875cf6f89f312e1e
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:38:54 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:38:54 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:38:55 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => wp-content/themes/nti/bower_components/bootstrap/dist/css/bootstrap.min.css.map
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => wp-content/themes/nti/bower_components/bootstrap/dist/css/bootstrap.min.css.map
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 26924218ec1490055faa4762a82ad8de
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:38:55 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:38:55 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:39:16 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => home
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => home
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [queried_object] => WP_Post Object
+        (
+            [ID] => 17
+            [post_author] => 1
+            [post_date] => 2017-01-08 13:54:34
+            [post_date_gmt] => 2017-01-08 13:54:34
+            [post_content] => 
+            [post_title] => home
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => home
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2017-01-08 13:54:34
+            [post_modified_gmt] => 2017-01-08 13:54:34
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost:8888/nit/?page_id=17
+            [menu_order] => 0
+            [post_type] => page
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [queried_object_id] => 17
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => a50df2c311ca83d0875cf6f89f312e1e
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:39:16 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:39:16 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:39:30 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => home
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => home
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [queried_object] => WP_Post Object
+        (
+            [ID] => 17
+            [post_author] => 1
+            [post_date] => 2017-01-08 13:54:34
+            [post_date_gmt] => 2017-01-08 13:54:34
+            [post_content] => 
+            [post_title] => home
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => home
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2017-01-08 13:54:34
+            [post_modified_gmt] => 2017-01-08 13:54:34
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost:8888/nit/?page_id=17
+            [menu_order] => 0
+            [post_type] => page
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [queried_object_id] => 17
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => a50df2c311ca83d0875cf6f89f312e1e
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:39:30 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:39:30 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:29 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => home
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => home
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [queried_object] => WP_Post Object
+        (
+            [ID] => 17
+            [post_author] => 1
+            [post_date] => 2017-01-08 13:54:34
+            [post_date_gmt] => 2017-01-08 13:54:34
+            [post_content] => 
+            [post_title] => home
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => home
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2017-01-08 13:54:34
+            [post_modified_gmt] => 2017-01-08 13:54:34
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost:8888/nit/?page_id=17
+            [menu_order] => 0
+            [post_type] => page
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [queried_object_id] => 17
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => a50df2c311ca83d0875cf6f89f312e1e
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:29 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:29 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:35 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => wp-content/themes/nti/bower_components/jquery/dist/jquery.min.map
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => wp-content/themes/nti/bower_components/jquery/dist/jquery.min.map
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 290b6d71ac6a65dbcfcd9bdaa01e32f8
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:35 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:35 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:35 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => wp-content/themes/nti/bower_components/bootstrap/dist/css/bootstrap.min.css.map
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => wp-content/themes/nti/bower_components/bootstrap/dist/css/bootstrap.min.css.map
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 26924218ec1490055faa4762a82ad8de
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:35 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:40:35 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:41:39 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [page] => 
+            [pagename] => home
+        )
+
+    [query_vars] => Array
+        (
+            [page] => 
+            [pagename] => home
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => 
+    [meta_query] => 
+    [date_query] => 
+    [queried_object] => WP_Post Object
+        (
+            [ID] => 17
+            [post_author] => 1
+            [post_date] => 2017-01-08 13:54:34
+            [post_date_gmt] => 2017-01-08 13:54:34
+            [post_content] => 
+            [post_title] => home
+            [post_excerpt] => 
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] => 
+            [post_name] => home
+            [to_ping] => 
+            [pinged] => 
+            [post_modified] => 2017-01-08 13:54:34
+            [post_modified_gmt] => 2017-01-08 13:54:34
+            [post_content_filtered] => 
+            [post_parent] => 0
+            [guid] => http://localhost:8888/nit/?page_id=17
+            [menu_order] => 0
+            [post_type] => page
+            [post_mime_type] => 
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+    [queried_object_id] => 17
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => a50df2c311ca83d0875cf6f89f312e1e
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:41:39 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-10-2017 @ 09:41:39 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-13-2017 @ 02:20:50 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [meta_key] => _menu_item_object_id
+            [meta_value] => 3
+            [post_status] => any
+            [post_type] => nav_menu_item
+            [posts_per_page] => -1
+        )
+
+    [query_vars] => Array
+        (
+            [meta_key] => _menu_item_object_id
+            [meta_value] => 3
+            [post_status] => any
+            [post_type] => nav_menu_item
+            [posts_per_page] => -1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 3469a79b944536272784fe1e1b56da21
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-13-2017 @ 02:20:50 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+        )
+
+    [query_vars] => Array
+        (
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 17
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 1
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 1
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 73702ed0bb1505700b9df8e8a3d0bde0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-13-2017 @ 02:20:50 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => menu_order
+            [order] => ASC
+            [include] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => nav_menu_item
+            [suppress_filters] => 1
+            [post_status] => publish
+            [output] => ARRAY_A
+            [output_key] => menu_order
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [posts_per_page] => 6
+            [post__in] => Array
+                (
+                    [0] => 14
+                    [1] => 19
+                    [2] => 27
+                    [3] => 29
+                    [4] => 34
+                    [5] => 35
+                )
+
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 01cbe24bc10e3ac8e295eab10f12bce0
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-13-2017 @ 02:20:50 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+        )
+
+    [query_vars] => Array
+        (
+            [numberposts] => 5
+            [offset] => 0
+            [category] => 0
+            [orderby] => date
+            [order] => DESC
+            [include] => Array
+                (
+                )
+
+            [exclude] => Array
+                (
+                )
+
+            [meta_key] => 
+            [meta_value] => 
+            [post_type] => page
+            [suppress_filters] => 1
+            [post__in] => Array
+                (
+                    [0] => 17
+                    [1] => 30
+                    [2] => 22
+                    [3] => 32
+                    [4] => 20
+                    [5] => 11
+                )
+
+            [nopaging] => 1
+            [update_post_term_cache] => 
+            [post_status] => publish
+            [posts_per_page] => 5
+            [ignore_sticky_posts] => 1
+            [no_found_rows] => 1
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 2797411569e639c0b3098ea242030edf
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
+-----01-13-2017 @ 02:20:50 ------
+WP_Query Object
+(
+    [query] => Array
+        (
+            [posts_per_page] => 5
+            [orderby] => date
+            [order] => ASC
+        )
+
+    [query_vars] => Array
+        (
+            [posts_per_page] => 5
+            [orderby] => date
+            [order] => ASC
+            [error] => 
+            [m] => 
+            [p] => 0
+            [post_parent] => 
+            [subpost] => 
+            [subpost_id] => 
+            [attachment] => 
+            [attachment_id] => 0
+            [name] => 
+            [static] => 
+            [pagename] => 
+            [page_id] => 0
+            [second] => 
+            [minute] => 
+            [hour] => 
+            [day] => 0
+            [monthnum] => 0
+            [year] => 0
+            [w] => 0
+            [category_name] => 
+            [tag] => 
+            [cat] => 
+            [tag_id] => 
+            [author] => 
+            [author_name] => 
+            [feed] => 
+            [tb] => 
+            [paged] => 0
+            [comments_popup] => 
+            [meta_key] => 
+            [meta_value] => 
+            [preview] => 
+            [s] => 
+            [sentence] => 
+            [fields] => 
+            [menu_order] => 
+            [category__in] => Array
+                (
+                )
+
+            [category__not_in] => Array
+                (
+                )
+
+            [category__and] => Array
+                (
+                )
+
+            [post__in] => Array
+                (
+                )
+
+            [post__not_in] => Array
+                (
+                )
+
+            [tag__in] => Array
+                (
+                )
+
+            [tag__not_in] => Array
+                (
+                )
+
+            [tag__and] => Array
+                (
+                )
+
+            [tag_slug__in] => Array
+                (
+                )
+
+            [tag_slug__and] => Array
+                (
+                )
+
+            [post_parent__in] => Array
+                (
+                )
+
+            [post_parent__not_in] => Array
+                (
+                )
+
+            [author__in] => Array
+                (
+                )
+
+            [author__not_in] => Array
+                (
+                )
+
+        )
+
+    [tax_query] => WP_Tax_Query Object
+        (
+            [queries] => Array
+                (
+                )
+
+            [relation] => AND
+            [table_aliases:protected] => Array
+                (
+                )
+
+            [queried_terms] => Array
+                (
+                )
+
+            [primary_table] => 
+            [primary_id_column] => 
+        )
+
+    [meta_query] => 
+    [date_query] => 
+    [post_count] => 0
+    [current_post] => -1
+    [in_the_loop] => 
+    [comment_count] => 0
+    [current_comment] => -1
+    [found_posts] => 0
+    [max_num_pages] => 0
+    [max_num_comment_pages] => 0
+    [is_single] => 
+    [is_preview] => 
+    [is_page] => 
+    [is_archive] => 
+    [is_date] => 
+    [is_year] => 
+    [is_month] => 
+    [is_day] => 
+    [is_time] => 
+    [is_author] => 
+    [is_category] => 
+    [is_tag] => 
+    [is_tax] => 
+    [is_search] => 
+    [is_feed] => 
+    [is_comment_feed] => 
+    [is_trackback] => 
+    [is_home] => 1
+    [is_404] => 
+    [is_comments_popup] => 
+    [is_paged] => 
+    [is_admin] => 
+    [is_attachment] => 
+    [is_singular] => 
+    [is_robots] => 
+    [is_posts_page] => 
+    [is_post_type_archive] => 
+    [query_vars_hash:WP_Query:private] => 0d27054209206c8a1ae92f0f58ff933b
+    [query_vars_changed:WP_Query:private] => 
+    [thumbnails_cached] => 
+    [stopwords:WP_Query:private] => 
+    [compat_fields:WP_Query:private] => Array
+        (
+            [0] => query_vars_hash
+            [1] => query_vars_changed
+        )
+
+    [compat_methods:WP_Query:private] => Array
+        (
+            [0] => init_query_flags
+            [1] => parse_tax_query
+        )
+
+)
+
