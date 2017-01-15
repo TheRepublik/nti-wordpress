@@ -59,7 +59,6 @@
 
 	add_shortcode('register_card','register_card_callback');
 
-
 	function programmes_card_callback($atts, $content, $tag) {
 		$output = '<div class="linky-widget-blue"><div class="linky-box-title">Programmes</div>';
 		$output .= '<div class="linky-box-content">';
@@ -102,26 +101,52 @@
 	add_shortcode('login_card','login_card_callback');
 
 	function countdown_long_card_callback($atts, $content, $tag) {
-		$output = '<div class="">';
-		$output .=  '</div>';
+      	$output = '<div class="countdown-widget-long">';
+        $output .= '<div class="pull-left">';
+        $output .= '<div class="title">Session Registration for Closes On</div>';
+        $output .= '<div class="timer" finishdate="'.$atts['finishdate'].'"></div>';
+        $output .= '</div>';
+        $output .= '<div class="pull-right">';
+        $output .= '<div class="register-btn">REGISTER NOW</div>';
+        $output .= '</div>';
+        $output .= '<div class="clearfix"></div>';
+        $output .= '</div>';
 
 		return $output;
 	}
 
 	add_shortcode('countdown_long_card','countdown_long_card_callback');
 
-	function countdown_sidebar_card_callback($atts, $content, $tag) {
-		$output = '<div class="">';
-		$output .=  '</div>';
+	function sidebar_countdown_card_callback($atts, $content, $tag) {
+        $output = '<div class="countdown-widget">';
+        $output .= '<div class="title">Session Registration for Closes On</div>';
+        $output .= '<div class="timer" finishdate="'.$atts['finishdate'].'"></div>';
+        $output .= '<div class="register-btn">REGISTER NOW</div>';
+        $output .= '</div>';
 
-		return $output;		
+		return $output;
 	}
 
-	add_shortcode('countdown_sidebar_card','countdown_sidebar_card_callback');
+	add_shortcode('sidebar_countdown_card','sidebar_countdown_card_callback');
 
 	function socialicons_sidebar_card_callback($atts, $content, $tag) {
-		$output = '<div class="">';
-		$output .=  '</div>';
+        $output = '<div class="social-widgets-links">';
+        $output .= '<h5>We are social</h5>';
+        $output .= '<ul>';
+        $output .= '<a href="#">';
+        $output .= '<li>';
+        $output .= '<div class="socia-fb"><i class="fa fa-facebook"></i></div><span class="share-text">Share</span></li>';
+        $output .= '</a>';
+        $output .= '<a href="#">';
+        $output .= '<li>';
+        $output .= '<div class="socia-tw"><i class="fa fa-twitter"></i></div><span class="share-text">Tweet</span></li>';
+        $output .= '</a>';
+        $output .= '<a href="#">';
+        $output .=  '<li>';
+        $output .= '<div class="socia-gp"><i class="fa fa-google-plus"></i></div><span class="share-text">Share</span></li>';
+        $output .= '</a>';
+        $output .= '</ul>';
+        $output .='</div>';
 
 		return $output;		
 	}
@@ -165,7 +190,6 @@
 	  unregister_widget('WP_Widget_Recent_Posts');
 	  register_widget('My_Recent_Posts_Widget');
 	}
-
 	add_action('widgets_init', 'my_recent_widget_registration');
 
 	function sidebar_social_icons () {
@@ -179,20 +203,21 @@
 		   'after_title' => '</span>',
 	   ) );
 	}
-
 	add_action( 'widgets_init', 'sidebar_social_icons');
 
 	function nti_scripts() {
+		wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/vendors/font-awesome/css/font-awesome.min.css');
 		wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/vendors/bootstrap/dist/css/bootstrap.min.css');
 		wp_enqueue_style( 'owl.carousel.css', get_template_directory_uri() . '/vendors/owl.carousel.css');
-		wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/vendors/font-awesome/css/font-awesome.min.css');
 		wp_enqueue_style( 'style', get_stylesheet_uri() );
 
 		wp_enqueue_script( 'jquery', get_template_directory_uri() . '/vendors/jquery/dist/jquery.min.js', true );
 		wp_enqueue_script( 'countdown', get_template_directory_uri() . '/vendors/jquery.countdown.min.js', array( 'jquery' ), '', true );
-		wp_enqueue_script( 'owl.carousel.js', get_template_directory_uri() . '/vendors/owl.carousel.min.js', array( 'jquery' ), '', true );
+		wp_enqueue_script( 'owl.carousel.js', get_template_directory_uri() . '/vendors/owl-carousel.js', array( 'jquery' ), '', true );
 		wp_enqueue_script( 'bootstrap.js', get_template_directory_uri() . '/vendors/bootstrap/dist/js/bootstrap.min.js', array( 'jquery' ), '', true );
-		wp_enqueue_script( 'nti-script', get_template_directory_uri() . '/vendors/functions.js', array( '$'), '', true );
+		wp_enqueue_script( 'nti-script', get_template_directory_uri() . '/vendors/functions.js', array('jquery'), '', true );
 	}
 	add_action( 'wp_enqueue_scripts', 'nti_scripts' );
+
+
 ?>
