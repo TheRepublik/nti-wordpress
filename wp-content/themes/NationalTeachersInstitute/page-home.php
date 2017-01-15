@@ -72,7 +72,7 @@
 			<h1 class="section-title">Our Programmes</h1>
 		</div>
 		<div class="container">
-			<div class="row">
+			<div class="programmesrow">
 				<div class="programme-card programme-card-one">
 					<span>SCIENCE</span>
 					
@@ -128,7 +128,7 @@
 			<h1 class="section-title">News & Updates</h1>
 		</div>
 		<div class="container">
-			<div class="row">
+			<div class="newsrow">
             	<?php
             		$args = array(
 					    'posts_per_page' => 5,
