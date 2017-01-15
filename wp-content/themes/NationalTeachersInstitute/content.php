@@ -15,4 +15,5 @@
     <?php
             endif;
     ?>
+    <?php echo do_shortcode( '[long_social_links]' ) ?>
 </div>

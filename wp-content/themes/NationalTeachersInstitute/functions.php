@@ -153,6 +153,18 @@
 
 	add_shortcode('socialicons_sidebar_card','socialicons_sidebar_card_callback');
 
+	function content_social_link () {
+        $output = '<div class="content-social-links">';
+        $output .= '<a href="#"><div class="fb"><i class="fa fa-facebook"></i></div></a>';
+        $output .= '<a href="#"><div class="tw"><i class="fa fa-twitter"></i></div></a>';
+        $output .= '<a href="#"><div class="gp"><i class="fa fa-google-plus"></i></div></a>';
+        $output .= '</div>';
+
+        return $output;
+	}
+
+	add_shortcode('long_social_links','content_social_link');
+
 	Class My_Recent_Posts_Widget extends WP_Widget_Recent_Posts {
 
 		function widget($args, $instance) {

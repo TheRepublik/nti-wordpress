@@ -28,14 +28,9 @@
 				                    endif;
 				            ?>
 				        </div>
+				        <?php echo do_shortcode( '[long_social_links]' ) ?>
 	                </div>
-	                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-	                    <?php
-	                        if ( is_active_sidebar( 'page-sidearea' ) ) {
-	                            dynamic_sidebar( 'page-sidearea' );
-	                        }
-	                    ?>
-	                </div>
+	                <?php get_sidebar(); ?>
                 </div>
             </div>
         </div>
