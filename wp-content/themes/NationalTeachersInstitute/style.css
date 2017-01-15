@@ -721,6 +721,30 @@ textarea.form-control {
   padding: 0px;
 }
 
+.content-social-links div {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  margin: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  float: left; }
+  .content-social-links div i {
+    font-size: 18px;
+    margin-top: 8px; }
+
+.content-social-links .fb {
+  background-color: #3b5998; }
+
+.content-social-links .tw {
+  background-color: #1da1f2; }
+
+.content-social-links .gp {
+  background-color: #dd4b39; }
+
+
 @media (min-width: 320px) {
   .navbar-toggle {
     float: left;

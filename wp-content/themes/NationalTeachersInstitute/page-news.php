@@ -12,6 +12,7 @@
                 <div class="container">
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         <?php get_template_part("content"); ?>
+                        <?php echo do_shortcode( '[long_social_links]' ) ?>
                     </div>
                     <?php get_sidebar(); ?>
                 </div>
