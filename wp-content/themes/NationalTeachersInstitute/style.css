@@ -536,7 +536,7 @@ ul#header-infos a:visited {
 
 .section {
   width: 100%;
-  padding: 60px 0px;
+  padding: 30px 0px;
   display: inline-block;
 }
 
@@ -828,18 +828,73 @@ textarea.form-control {
 .content-social-links .gp {
   background-color: #dd4b39; }
 
-@media (min-width: 320px) {
-  .navbar {
-    margin-bottom: 0px; }
-  .footer-column {
-    border-left: 0px;
-    border-top: 1px #4E5054 solid; }
-  .footer-column:first-child {
-    border-top: none; }
-  #header-nav {
-    height: auto; }
-  #header {
-    height: auto; } }
+.dropdown-menu {
+  padding: 10px;
+  border-radius: 0px;
+  margin-top: 150px;
+}
+
+.dropdown-menu  a {
+  color: transparent;
+  background-color: transparent;
+}
+
+.dropdown-menu a:hover {
+  color: transparent;
+  background-color: transparent;
+}
+
+.dropdown-menu a:visited {
+  color: transparent;
+  background-color: transparent;
+}
+
+.dropdown-menu>.active>a {
+  background-color: transparent;
+}
+
+.dropdown-menu li a {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.dropdown-menu li {
+  border-left: 1px solid #008001;
+  margin-bottom: 10px;
+}
+
+.navbar-nav >li.open  .dropdown-menu {
+  animation-name: submenu_animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes submenu_animation {
+  from {
+    margin-top: 100px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+@-webkit-keyframes submenu_animation {
+  from {
+    margin-top: 100px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+@-moz-keyframes submenu_animation {
+  from {
+    margin-top: 100px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
 
 .content-social-links div {
   width: 200px;
@@ -864,6 +919,19 @@ textarea.form-control {
 
 .content-social-links .gp {
   background-color: #dd4b39; }
+
+@media (min-width: 320px) {
+  .navbar {
+    margin-bottom: 0px; }
+  .footer-column {
+    border-left: 0px;
+    border-top: 1px #4E5054 solid; }
+  .footer-column:first-child {
+    border-top: none; }
+  #header-nav {
+    height: auto; }
+  #header {
+    height: auto; } }
 
 @media (min-width: 480px) {
   .navbar {
