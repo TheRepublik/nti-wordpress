@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <section>
-        <div class="content-header-purple">
+        <div class="content-header-green">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="container">
                 	<h1>Search Results For :<?php the_search_query(); ?></h1>
