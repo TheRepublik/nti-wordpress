@@ -24,7 +24,7 @@
                 <div style="text-align: center;" class="footer-faded-text">Subscribe to our newsletter to get official updates</div>
                 <div id="newsletter">
                     <input type="text" name="email" placeholder="E-mail" />
-                    <div id="newsletter-btn"><i class="fa fa-envelope-o"></i></div>
+                    <input type="submit" name="submit" value="Subscribe" />
                 </div>
             </div>
         </div>

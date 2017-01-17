@@ -128,7 +128,7 @@
 			<h1 class="section-title">News & Updates</h1>
 		</div>
 		<div class="container">
-			<div class="newsrow">
+			<div class="row">
             	<?php
             		$args = array(
 					    'posts_per_page' => 5,

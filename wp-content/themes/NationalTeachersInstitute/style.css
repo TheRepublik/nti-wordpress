@@ -261,31 +261,31 @@ a:visited {
   margin-top: 25px;
   margin: 30px auto; }
   #newsletter input[type="text"] {
-    width: 150px;
+    width: 100%;
     height: 45px;
     border: 0px;
     padding: 15px;
     display: block;
-    float: left;
     background: #4E5054;
-    border-bottom-left-radius: 4px;
-    border-top-left-radius: 4px; }
-  #newsletter #newsletter-btn {
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; }
+
+  #newsletter input[type="submit"] {
+    width: 100%;
+    height: 50px;
     display: block;
-    float: left;
-    border-bottom-right-radius: 4px;
-    border-top-right-radius: 4px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
     text-align: center;
-    font-size: 22px;
     color: #fff;
-    opacity: 1.00;
-    background: #8CD494; }
-    #newsletter #newsletter-btn i {
-      display: block;
-      margin-top: 10px; }
+    border: 0px;
+    background: #008001; }
 
 .content {
   width: 100%;
@@ -370,6 +370,8 @@ a:visited {
     color: #fff; }
   .linky-widget .linky-box-content, .linky-widget-red .linky-box-content, .linky-widget-orange .linky-box-content, .linky-widget-blue .linky-box-content, .linky-widget-violet .linky-box-content {
     height: 85px;
+    text-transform: capitalize;
+    font-weight: bold;
     font-size: 16px;
     color: #fff; }
   .linky-widget .linky-box-link, .linky-widget-red .linky-box-link, .linky-widget-orange .linky-box-link, .linky-widget-blue .linky-box-link, .linky-widget-violet .linky-box-link {
@@ -380,6 +382,12 @@ a:visited {
     font-size: 12px;
     padding-top: 8px;
     color: #fff; }
+
+    .linky-box-link:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+
     .linky-widget .linky-box-link a, .linky-widget-red .linky-box-link a, .linky-widget-orange .linky-box-link a, .linky-widget-blue .linky-box-link a, .linky-widget-violet .linky-box-link a {
       color: #fff !important; font-family: "Montserrat"; font-size: 10px; }    
     .linky-widget .linky-box-link a:hover, .linky-widget-red .linky-box-link a:hover, .linky-widget-orange .linky-box-link a:hover, .linky-widget-blue .linky-box-link a:hover, .linky-widget-violet .linky-box-link a:hover {
@@ -554,6 +562,13 @@ a:visited {
   width: 100%;
   margin-top: 50px;
 }
+
+.programme-readmore-btn:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color: #333;
+}
+
 
 .programme-card {
   width: 200px;
