@@ -22,56 +22,48 @@
         <div id="loader-bar1" class="loader-bar"></div>
     </div>
     <div id="header">
-        <div id="header-top">
+        <div id="header-top" class="hidden-xs hidden-sm">
             <div class="container">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4"><img src="<?php bloginfo('template_url'); ?>/assets/logo-light.svg" height="140" /></div>
-                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-8">
-                    <div id="header-buttons" class="pull-right">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <div class="login-btn pull-right"><i class="fa fa-user"></i>&nbsp; PORTAL LOG IN</div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-                            <div id="header-social-icons" class="pull-right">
-                                <ul id="header-links" type="none">
-                                    <li>Follow Us &nbsp;&nbsp;
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-6">
+                    <ul id="header-infos" type="none">
+                        <li><i class="fa fa-phone"></i>&nbsp;&nbsp; +23481471447144</li>
+                        <li><i class="fa fa-envelope"></i>&nbsp;&nbsp; INFO@NTI.NG</li>
+                        <li><i class="fa fa-marker"></i>&nbsp;&nbsp; Kaduna, Nigeria</li>
+                        <li><a href="#"><i class="fa fa-lock"></i>&nbsp;&nbsp; Register / Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="header-social-icons" class="pull-right">
+                        <ul id="header-links" type="none">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
         <div id="header-nav">
             <div class="container">
-                <div class="col-lg-8 col-md-10 col-sm-10 col-xs-10">
-                    <nav class="navbar">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false" class="navbar-toggle collapsed"><span>MENU</span></button>
-                            </div>
-                            <?php
-                                wp_nav_menu( array(
-                                    'menu' => 'primary',
-                                    'theme_location' => 'primary',
-                                    'container' => 'div',
-                                    'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
-                                    'menu_class' => 'nav navbar-nav navbar-left',
-                                    'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
-                                    'walker' => new wp_bootstrap_navwalker(),
-                                ));
-                            ?>
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" class="navbar-toggle collapsed"><span>MENU</span></button>
+                            <a href="#" class="navbar-brand"><img src="<?php bloginfo('template_url'); ?>/assets/logo-light.svg" class="logo" /></a>
                         </div>
-                    </nav>
-                </div>
-                <div id="header-nav-search" class="col-lg-4 col-md-2 col-sm-2 col-xs-2">
-                    <input id="search-input" type="text" placeholder="Search" class="hidden-sm hidden-xs" />
-                    <div id="search-btn" class="hidden-lg hidden-md"><i class="fa fa-search"></i></div>
-                </div>
+                        <?php
+                            wp_nav_menu( array(
+                                'menu' => 'primary',
+                                'theme_location' => 'primary',
+                                'container' => 'div',
+                                'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
+                                'menu_class' => 'nav navbar-nav navbar-left',
+                                'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+                                'walker' => new wp_bootstrap_navwalker(),
+                            ));
+                        ?>
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
