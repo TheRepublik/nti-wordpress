@@ -21,7 +21,6 @@
         }
 
         carousel($(".programmesrow"));
-        carousel($(".newsrow"));
 
         $('.timer').each(function () {
            $(this).countdown($(this).attr('finishdate'), function (event) {
