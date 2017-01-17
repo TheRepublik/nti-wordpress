@@ -14,8 +14,9 @@
                   [1200, 4],
                   [1600, 4]
                 ],
+                navigationText : ["<div id='owl-prev-btn'></div>", "<div id='owl-next-btn'></div>"],
                 pagination : true,
-                navigation : false,
+                navigation : true,
                 stopOnHover: true,
             });
         }
