@@ -48,7 +48,7 @@
                 <nav class="navbar">
                     <div class="container">
                         <div class="navbar-header">
-                            <button type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" class="navbar-toggle collapsed"><span>MENU</span></button>
+                            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" class="navbar-toggle collapsed"><span>MENU</span></button>
                             <a href="#" class="navbar-brand"><img src="<?php bloginfo('template_url'); ?>/assets/logo-light.svg" class="logo" /></a>
                         </div>
                         <?php

@@ -28,7 +28,6 @@
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="about-card">
 					<div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
-						<div class="about-tag">ABOUT NTI</div>
 						<h2>About The National Teachers Institute of Nigeria </h2>
 						<p>
 							The National Teachers' Institute was setup to serve as a Distant Learning Educational Institution...
